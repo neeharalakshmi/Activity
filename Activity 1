@@ -1,0 +1,76 @@
+1. Using “man command” can you provide me the explanations of the output for the 
+following commands:
+ls -b, ls -c, ls -d, …., ls -z
+
+Ans:
+a.) ls -b
+ls -b displays non-printable characters in filenames using C-style escape sequences. This is useful when dealing with files containing spaces, tabs, or other special characters in their names.
+
+b.) ls -c
+ls -c sorts files by their last modification time (ctime) in descending order (newest first). When used with -l, it shows the time of last status change.
+
+c.) ls -d
+ls -d lists directories themselves rather than their contents. This prevents ls from expanding directory contents and shows only the directory entries.
+
+d.) ls -e
+ls -e displays extended attribute information along with the long listing format (not available on all systems).
+
+e.) ls -f
+ls -f does not sort directory contents, showing them in the order they appear in the directory. This also implies -a (showing all files including hidden ones).
+
+f.) ls -g
+ls -g displays long format but omits the owner information, showing only group ownership.
+
+g.) ls -h
+ls -h shows file sizes in human-readable format (KB, MB, GB) instead of bytes.
+
+i.) ls -i
+ls -i displays the inode number of each file, which is the unique identifier for the file in the filesystem.
+
+j.) ls -k
+ls -k displays file sizes in kilobytes (1024 bytes) instead of the default block size.
+
+k.) ls -l
+ls -l uses long listing format showing detailed file information including permissions, owner, size, and modification time.
+
+l.) ls -m
+ls -m displays files separated by commas, filling the entire width of the terminal.
+
+m.) ls -n
+ls -n displays user and group IDs numerically instead of resolving to names.
+
+n.) ls -o
+ls -o displays long format but omits group information.
+
+o.) ls -p
+ls -p appends a slash (/) to directory names, making them easily distinguishable from files.
+
+p.) ls -q
+ls -q displays non-printable characters in filenames as question marks (?).
+
+q.) ls -r
+ls -r reverses the order of sort to show files in descending order.
+
+r.) ls -s
+ls -s displays the allocated size of each file in blocks.
+
+s.) ls -t
+ls -t sorts files by modification time, newest first.
+
+t.) ls -u
+ls -u sorts by and shows the last access time instead of modification time.
+
+u.) ls -v
+ls -v performs natural sort of version numbers within text.
+
+v.) ls -w
+ls -w specifies the screen width for output formatting (deprecated in many systems).
+
+w.) ls -x
+ls -x lists files in lines going across the screen rather than down.
+
+x.) ls -y
+ls -y is not a standard option in most ls implementations.
+
+y.) ls -z
+ls -z displays security context information for SELinux-enabled systems.
