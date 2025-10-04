@@ -74,3 +74,58 @@ ls -y is not a standard option in most ls implementations.
 
 y.) ls -z
 ls -z displays security context information for SELinux-enabled systems.
+
+2. Can you explore the following commands on your own:
+• whoami, pwd
+• cd
+• cd /
+• cd <space> ..
+• cd <space> <path>
+(B)
+tree -l -L 1
+tree -l -L 2
+tree -l -L 3
+tree /var/log/apt -La 1
+
+Ans:
+
+a.) whoami
+Explanation:
+The whoami command displays the current logged-in username. It shows which user account is currently active in the terminal session.
+
+b.) pwd
+Explanation:
+The pwd (Print Working Directory) command displays the full path of the current directory you're working in.
+
+c.) cd
+Explanation:
+The cd (Change Directory) command without any arguments takes you to your home directory.
+
+d.) cd /
+Explanation:
+The cd / command changes the current directory to the root directory, which is the top-level directory of the entire filesystem.
+
+e.) cd <space> ..
+Explanation:
+The cd .. command moves up one level to the parent directory of your current location.
+
+f.) cd <space> <path>
+Explanation:
+The cd <path> command changes to the specified directory path. The path can be absolute (starting from /) or relative (from current directory).
+
+g.) tree -l -L 1
+Explanation:
+The tree -l -L 1 command displays the directory structure showing only the first level of contents, following symbolic links.
+
+h.) tree -l -L 2
+Explanation:
+The tree -l -L 2 command shows the directory structure up to 2 levels deep, following symbolic links.
+
+i.) tree -l -L 3
+Explanation:
+The tree -l -L 3 command displays the directory structure up to 3 levels deep, following symbolic links.
+
+j.) tree /var/log/apt -La 1
+Explanation:
+The tree /var/log/apt -La 1 command shows the directory structure of /var/log/apt with all files (including hidden ones) at level 1 only.
+
