@@ -1,0 +1,52 @@
+1.) Using “man command” can you provide me the explanations of the output for the 
+following commands:
+tree -a, tree -d, tree -u, …., tree -p.
+
+Ans: 
+tree -a
+Explanation:
+The tree -a command displays all files and directories, including hidden ones (those starting with a dot). This shows the complete directory structure.
+
+tree -d
+Explanation:
+The tree -d command displays only directories, excluding all files. This is useful for viewing the folder structure without file clutter.
+
+tree -u
+Explanation:
+The tree -u command displays the username (or UID if no name is available) of the file/directory owner in the output.
+
+tree -g
+Explanation:
+The tree -g command displays the group name (or GID if no name is available) of the file/directory owner.
+
+tree -p
+Explanation:
+The tree -p command displays the file permissions for each file and directory in the traditional Unix format (e.g., -rw-r--r--).
+
+2.) Can you explore the following commands on your own:
+• ifconfig
+• ping
+• traceroute
+• nmap
+• mkdir
+
+a.) ifconfig
+Explanation:
+The ifconfig (interface configurator) command displays and configures network interface parameters. It shows IP addresses, netmasks, broadcast addresses, and network statistics for all active interfaces.
+
+b.) ping
+Explanation:
+The ping command tests connectivity between two network devices by sending ICMP echo request packets and measuring response times.
+
+c.) traceroute
+Explanation:
+The traceroute command shows the path that packets take to reach a network host, displaying all intermediate routers and their response times.
+
+d.) nmap
+Explanation:
+The nmap (Network Mapper) command is a security scanning tool used to discover hosts and services on a computer network.
+
+e.) mkdir
+Explanation:
+The mkdir (make directory) command creates new directories.
+
